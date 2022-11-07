@@ -5,7 +5,7 @@ const apiThoughts = require('./api/thought-routes');
 
 
 router.use('/api', apiUsers);
-router.use('/api', apiThoughts);
+// router.use('/api', apiThoughts);
 
 
 router.use((req, res) => {
