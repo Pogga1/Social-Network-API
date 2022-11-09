@@ -1,6 +1,7 @@
 const { Users } = require("../models");
 
 const usersController = {
+  
   getUsers(req, res) {
     Users.find({})
       .populate({
